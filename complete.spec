@@ -4,7 +4,7 @@
 #
 Name     : complete
 Version  : 0.0.1
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/4e/f4/c3bd2443dd19e6dd2b283b9edd1153a2255ed839471f2a80b1f9c9380818/complete-0.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4e/f4/c3bd2443dd19e6dd2b283b9edd1153a2255ed839471f2a80b1f9c9380818/complete-0.0.1.tar.gz
 Summary  : A Python library to autocomplete questions using search engines
@@ -56,15 +56,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1618248294
+export SOURCE_DATE_EPOCH=1635714055
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
